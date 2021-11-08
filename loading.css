@@ -1,0 +1,16 @@
+div {
+  height: 60px;
+  width: 60px;
+ 
+  line-height: 60px;
+  border: 1px dotted gray;
+  
+  text-align: center;
+  font-family: monospace;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -31px;
+  margin-left: -31px;
+}

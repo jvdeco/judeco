@@ -1,0 +1,25 @@
+body {
+	background-color: black;
+}
+
+span {
+    color: blue;
+    border-color: blue;
+    margin-right: -1px;
+}
+
+h1 {
+	color: blue;
+	font-size: 40px;
+	font-family: MingLiU-ExtB;
+}
+
+footer {
+	margin-top: 240px;
+}
+
+h2 {
+	color: blue;
+	font-size: 40px;
+	font-family: MingLiU-ExtB;
+}

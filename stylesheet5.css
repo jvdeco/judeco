@@ -1,0 +1,25 @@
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 1200px;-
+}
+
+.container img {
+	width: 1080px;
+	height: 720px;
+}
+
+.container .button {
+	position: absolute;
+	top: 95%;
+	left: 49%;
+	transform: translate(-50%, -50%);
+	background-color: lightskyblue;
+	color: black;
+	font-size: 100px;
+	padding: 16px 30px;
+	cursor: pointer;
+	text-align: center;
+	font: MingLiU-ExtB;
+	font-family: MingLiU-ExtB;
+}
