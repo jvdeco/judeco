@@ -12,10 +12,12 @@
 </div>
 <center>
 	
-<iframe src="audio/ahora.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-    <audio id="player" preload="auto" autoplay loop>
-        <source src="audio/ahora.mp3" type="audio/mp3">
-    </audio>
+<p><audio id="loop-limited" controls="controls" autoplay style="width: 6em;height:20px;"><source src="https://www.youtube.com/watch?v=p1Gow_MsFzA" type="audio/ogg" /><source src="https://www.youtube.com/watch?v=p1Gow_MsFzA" type="audio/mpeg" /></audio><br />
+<script>
+var loopLimit = 5;
+var loopCounter = 0;
+document.getElementById('loop-limited').addEventListener('ended', function(){if (loopCounter < loopLimit){this.currentTime = 0;this.play();loopCounter++;}
+}, false);</script></p>
 	
 	</center>
 </embed>
