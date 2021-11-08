@@ -1,9 +1,5 @@
 body {
 	background-color: black;
-	@viewport
-    zoom: 1.0;
-    width: device-width;
-}
 }
 
 span {
