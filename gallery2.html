@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="viewport" content="width=705; user-scalable=0;" />
+ <link rel="icon" type="image/x-icon" href="favicon1.png">
+<style>
+  
+body {
+  background-color: black;
+
+}
+
+
+p {text-shadow: #EEEE00 0 0 10px, # #FFFFFF; 5px 5px 5px;
+   filter: glow(color=#FFFFFF,strength=3);
+text-shadow:  #FFFFFF 0 0 10px;}
+
+.slideshow{
+  margin: 0 auto;
+  padding-top: 55px;
+  height: 530px;
+  perspective: 1400px;
+      margin: 0px auto;
+
+
+
+
+}
+
+.content{
+  margin: auto;
+  width: 350px;
+  perspective: 1600px;
+  position:relative;
+  padding-top: 80px;
+  transform-style: preserve-3d;
+
+
+
+}
+.slider-content{
+  width: 100%;
+  position:absolute;
+  float:right;
+  animation: rotate 35s infinite linear;
+  animation-direction: normal;
+  transform-style: preserve-3d;
+}
+.slider-content:hover{
+  cursor: pointer;
+  animation-play-state: initial;
+
+
+  
+}
+
+.slider-content figure{
+  width:180px;
+  height:120px;
+  border:1px solid #555;
+  overflow:hidden;
+  position:absolute;
+
+
+}
+.slider-content img{
+  image-rendering: auto;
+  transition: all 10ms;
+  width: 100%;
+  height: 100%;
+}
+
+.slider-content img:hover{
+   transform: scale(0.9); 
+   transition: all 300ms; 
+
+} 
+.shadow{ 
+   position: absolute; 
+   color: blue;
+
+}
+
+.slider-content figure:nth-child(1){
+  transform:rotateY(0deg) translateZ(300px);
+}
+ 
+.slider-content figure:nth-child(2){
+  transform:rotateY(40deg) translateZ(300px);
+
+}
+.slider-content figure:nth-child(3){
+  transform:rotateY(80deg) translateZ(300px);
+}
+.slider-content figure:nth-child(4){
+  transform:rotateY(120deg) translateZ(300px);
+}
+.slider-content figure:nth-child(5){
+  transform:rotateY(160deg) translateZ(300px);
+}
+.slider-content figure:nth-child(6){
+  transform:rotateY(200deg) translateZ(300px);
+}
+
+
+
+@keyframes rotate {
+  from{
+    transform: rotateY(2deg);
+  }
+  to{
+      transform: rotateY(360deg);
+  }
+
+
+
+
+
+
+
+</style>
+  <title></title>
+</head>
+<body>
+
+<img div="jude" src="jude.gif">
+
+  <center>
+<section class="slideshow">
+   <div class="content">
+      <div class="slider-content">
+         <figure class="shadow"><img src="img1.jpg"></figure>
+         <figure class="shadow"><img src="img2.jpg"></figure>
+         <figure class="shadow"><img src="img3.png"></figure>
+         <figure class="shadow"><img src="img4.png"></figure>
+         <figure class="shadow"><img src="img5.png"></figure>
+         <figure class="shadow"><img src="img6.png"></figure>
+      </div>
+      <center><img src="avatarjude.png" style="height: 100px; width: 50px;"></center>
+   </div>
+
+</section>
+</center>
+
+
+
+
+<center>
+  <p><a style="font-size: 22px; color: lightblue; position: relative;
+bottom: 150px;" href="index.html">
+back</a></p> </center>
+</div>
+
+</body>
+</html>
